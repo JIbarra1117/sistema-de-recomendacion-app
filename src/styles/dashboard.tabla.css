@@ -1,0 +1,46 @@
+/* En tu archivo de estilos (por ejemplo, dashboard.tabla.css) */
+
+.table-container {
+    margin: 20px; /* Ajusta según tus necesidades */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espacio entre tablas */
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Ajusta el espacio interno de las celdas según tus necesidades */
+    text-align: left;
+  }
+  
+  /* Ajusta el ancho de cada columna aquí */
+  .table th:nth-child(1), .table td:nth-child(1) {
+    width: 10%; /* Porcentaje o valor específico según tus necesidades */
+  }
+  
+  .table th:nth-child(2), .table td:nth-child(2) {
+    width: 20%; /* Porcentaje o valor específico según tus necesidades */
+  }
+  
+  /* Repite para cada columna */
+  
+  .button-container {
+    margin-top: 20px; /* Espacio entre la tabla y el botón */
+  }
+  
+  .button-prev,
+  .button-next {
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px; /* Ajusta el espacio entre los botones según tus necesidades */
+  }
+
+  .table td img {
+    max-width: 200px; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    display: block; /* Evita márgenes en la parte inferior de las imágenes */
+    margin: 0 auto; /* Centra la imagen en la celda */
+  }
